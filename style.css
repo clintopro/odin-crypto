@@ -162,7 +162,43 @@ font-size: 26px;
 }
 
 
+/* ------------------------------- Section three ------------------------------ */
+
+.section-four{
+    margin: 100px 200px 100px 200px;
+    display: flex;
+    background-color: #3882f6;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+   justify-content: space-around;
+   flex-wrap: wrap;
 
 
+}
 
+.section-four> button {
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 1px;
+    color: #e5e7eb;
+    border:solid #e5e7eb 3px;
+    font-size: 17px;
+    flex-shrink: 0;
+    align-self: self-end;
+  }
 
+  .S3-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+  font-size: 18px;
+  }
+  .S3-text>h4{
+    font-size: 26px;
+    
+    }
