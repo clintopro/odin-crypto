@@ -133,3 +133,36 @@ gap: 20px;
   border-radius: 10px;
 }
 
+
+/* ------------------------------- Section three ------------------------------ */
+
+.section-three{
+    padding: 100px 300px 100px 300px;
+    display: flex;
+    flex-direction: column;
+  
+    gap: 10px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+
+}
+
+.section-three>p{
+    font-style: italic;
+    font-size: 36px;
+align-self: flex-end;
+    
+    flex-grow: 1;
+}
+
+.section-three>h4{
+align-self: flex-end;
+font-size: 26px;
+
+}
+
+
+
+
+
+
